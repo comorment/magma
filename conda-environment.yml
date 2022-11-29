@@ -1,4 +1,4 @@
-name: container_template
+name: magma
 channels:
   - conda-forge
   - defaults
