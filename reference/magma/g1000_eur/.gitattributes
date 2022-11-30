@@ -1,0 +1,4 @@
+g1000_eur.synonyms filter=lfs diff=lfs merge=lfs -text
+g1000_eur.bed filter=lfs diff=lfs merge=lfs -text
+g1000_eur.bim filter=lfs diff=lfs merge=lfs -text
+g1000_eur.fam filter=lfs diff=lfs merge=lfs -text
