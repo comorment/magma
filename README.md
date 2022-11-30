@@ -1,18 +1,10 @@
 # magma project
 
-README info goes here. Modify for your own project's needs.
+Singularity wrapper for [MAGMA](https://ctg.cncr.nl/software/magma) and [LAVA](https://ctg.cncr.nl/software/lava) software packages. Also includes [ldblock](https://github.com/cadeleeuw/lava-partitioning) software.
 
-# Important! - post initial setup steps
-
-After setting up project from the template, add files, commit and push the changes after running the setup script (`scripts/init.py`):
-
-```
-git add <file1> <file2> ...
-git commit -a -m "initial setup"
-git push
-```
-
-The remaining codes may then be added to and be modified further to suit the requirements of the `<magma>` project. 
+For LAVA, the example data is  (``https://github.com/josefin-werme/LAVA/tree/main/vignettes``) is available within ``reference/example/lava`` folder. The folder also has a README file explaining how to trigger this analysis.
+The ``ldblock`` tool (https://github.com/cadeleeuw/lava-partitioning) is also included in ``magma.sif`` container.
+You may also have a look at unit-tests for a usage example.
 
 # Important! - Set up Git LFS
 
@@ -42,7 +34,6 @@ Please keep up to date (and update the main `<magma>/README.md` when pushing new
 | OS/tool             | Version               | License           | Source
 | ------------------- | --------------------- | ----------------- | -------------
 | ubuntu              | 20.04                 | [Creative Commons CC-BY-SA version 3.0 UK licence](https://ubuntu.com/legal/intellectual-property-policy) | [Ubuntu.com](https://ubuntu.com)
-| python              | 3.8.10                | [PSF](https://docs.python.org/3.10/license.html) | [Python.org](https://www.python.org)
 
 ## Building/rebuilding containers
 

@@ -4,7 +4,7 @@ https://github.com/josefin-werme/LAVA
 You may a demo analysis by changing to this folder, and executing the following commands:
 
 ```
-singularity shell --home $PWD:/home $COMORMENT/containers/singularity/r.sif 
+singularity shell --home $PWD:/home $COMORMENT/magma/containers/magma.sif
 
 Rscript lava_script.R "vignettes/data/g1000_test" "vignettes/data/test.loci" "vignettes/data/input.info.txt" "vignettes/data/sample.overlap.txt" "depression;bmi" "depression.bmi"
 ```

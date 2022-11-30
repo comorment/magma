@@ -6,36 +6,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Added
-
-- additions goes here
-
-### Updated
-
-- updates goes here
-
-### Fixed
-
-- fixes goes here
-
-### Removed
-
-- removals goes here
-
-## [MAJOR.MINOR.PATCH] - YYYY-MM-DD
+## [1.0.0] - 2022-11-30
 
 ### Added
 
-- additions goes here
+- MAGMA v1.09b, LAVA, ldblock (lava-partitioning) tools:
+  ``7b488aad6a9e2df36502c65e7367bbee  magma.sif``
+- unit-tests
+- reference data
+- brief documentation
 
-### Updated
-
-- updates goes here
-
-### Fixed
-
-- fixes goes here
-
-### Removed
-
-- removals goes here
