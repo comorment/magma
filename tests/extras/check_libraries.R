@@ -1,0 +1,10 @@
+# check that all libraries are installed
+library(BiocGenerics)
+library(BiocManager)
+library(BRugs)
+library(data.table)
+library(LAVA)
+library(matrixsampling)
+library(R.utils)
+library(snpStats)
+library(zlibbioc)
