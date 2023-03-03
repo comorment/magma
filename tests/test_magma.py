@@ -64,6 +64,14 @@ def test_R_script():
     assert out.returncode == 0
 
 
+def test_R_libraries():
+    """test that the R libraries are installed"""
+    pwd = os.getcwd() if PREFIX.rfind('docker') >= 0 else '.'
+    call = f'{PREFIX_MOUNT} R {pwd}/tests/extras/check_libraries.R'
+    out = subprocess_run(call)
+    assert out.returncode == 0
+
+
 # py.test tests/test_magma.py  -k test_magma_binary
 def test_magma_binary():
     call=f'{PREFIX} magma --version'

@@ -21,6 +21,7 @@ apt-get update && apt-get install -y --no-install-recommends \
    libgsl-dev=2.5+dfsg-6build1 \
    libnss3=2:3.49.1-1ubuntu1.8 \
    libpcre2-dev=10.34-7ubuntu0.1 \
+   libpoppler-glib-dev=0.86.1-0ubuntu1.1 \
    libxt-dev=1:1.1.5-1 \
    pandoc=2.5-3build2 \
    pandoc-citeproc=0.15.0.1-1build4 \
@@ -28,6 +29,7 @@ apt-get update && apt-get install -y --no-install-recommends \
    perl=5.30.0-9ubuntu0.3 \
    pkg-config=0.29.1-0ubuntu4 \
    tar=1.30+dfsg-7ubuntu0.20.04.2 \
+   tcl-dev=8.6.9+1 \
    tofrodos=1.7.13+ds-4 \
    unzip=6.0-25ubuntu1.1 \
    vim=2:8.1.2269-1ubuntu5.9 \
